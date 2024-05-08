@@ -1,0 +1,474 @@
+/* Jordan Buckley Class Code - CC */
+/* 17/4/24 */
+
+body {
+  background: linear-gradient(to right, #f0f8ff, #ffe5e3); /* Gradient from light green to light pink */
+  background-attachment: fixed; /* Fixes the background to the viewport (optional) */
+  min-height: 100vh; /* Sets minimum height to viewport height (optional) */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+header a.logo-link {
+  display: block;
+  text-align: center; /* Aligns text to center of page */
+  margin-bottom: 15px; /* Adjust spacing as needed */
+}
+
+header a.logo-link img {
+  width: 150px; /* Adjust logo size as desired */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Sets nicer spacing between blocks of text */
+  background: linear-gradient(to right, #ffc0cb, #f8b399, #f08080); /* Gradient from pink to orange to red */
+  padding: 10px; /* Adds padding to nav bar */
+}
+
+nav a {
+  color: #55332E; /* Brown text */
+  text-decoration: none;
+  padding: 10px;
+  font-family: Cambria, serif;  /* Serif font */
+}
+
+nav a:hover {
+  color: #876C5C; /* Darker earthy brown on hover */
+}
+
+main {
+  margin: 0 auto; /* Center the main content horizontally */
+  padding: 20px; /* Maintain the existing padding */
+}
+
+section#home {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center if needed */
+  padding: 20px;
+  width: 80%; /* Set a width for the section (adjust as needed) */
+  height: 100vh; /* Optional: Set full viewport height for vertical centering */
+}
+
+
+section {
+  margin-bottom: 40px;
+}
+
+section#about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center if needed */
+  padding: 20px;
+  width: 80%; /* Set a width for the section (adjust as needed) */
+  height: 100vh; /* Optional: Set full viewport height for vertical centering */
+}
+
+section#about-us h2 {
+  margin-bottom: 15px; /* Add spacing below the title */
+  text-align: center;
+}
+
+section#about-us p {
+  line-height: 1.5; /* Adjust line spacing for better readability */
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: center; /* Center the text within the section */
+}
+
+section#about-us img {
+  width: 100%; /* Make the image responsive */
+  max-width: 400px; /* Set a maximum width for larger screens */
+  margin-bottom: 20px; /* Add spacing below the image */
+  margin-right: auto; /* Align the image to the right */
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+  color: #333; /* Warm brown text for body text */
+}
+
+/* Sizing of the image */
+img {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.garden-supplies {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+.garden-supplies h1 {
+  font-size: 2.5rem; /* Adjust heading size */
+  color: #333; /* Warm brown for headings */
+}
+
+.garden-supplies p {
+  font-size: 1.2rem; /* Adjust paragraph size */
+  line-height: 1.5;
+  text-align: center;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 30px;
+}
+
+.garden-supplies img{
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 10px auto;
+}
+
+.hero-buttons .shop-now-button,
+.learn-more-button {
+  background-color: #87A790; /* Greenish button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: Cambria, serif;
+  font-size: 16px; /* Adjust button font size */
+}
+
+.hero-buttons .shop-now-button:hover,
+.learn-more-button:hover {
+  background-color: #8AA790; /* Lighter green on hover */
+}
+
+.shop-by-category {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+.shop-by-category h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.category-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to next line */
+  justify-content: space-around; /* Evenly space cards */
+}
+
+.category-card {
+  width: 25%; /* Adjust card width as needed */
+  margin: 10px;
+  border: 1px solid #ddd; /* Add a light border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  padding: 15px;
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.category-card img {
+  width: 100%;
+  max-width: 200px; /* Adjust image size as needed */
+  margin-bottom: 10px;
+}
+
+.category-card:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle hover shadow */
+}
+
+.gardening-info {
+ padding: 50px 0; /* Adjust padding as needed */
+ text-align: center; /* Center the content horizontally */
+}
+
+.gardening-info h2 {
+ text-align: center;
+ margin-bottom: 30px;
+}
+.gardening-info ul {
+ padding: 0; /* Remove default list padding */
+ margin: 0 auto; /* Center the list horizontally */
+ width: 60%; /* Set a width for the list container */
+}
+.gardening-info ul li {
+ margin-bottom: 10px; /* Spacing between list items */
+}
+.gardening-info ul a {
+  color: #228B22;
+  text-decoration: none; /* Remove underline */
+}
+.gardening-info ul a:hover {
+  color: #876C5C;
+}
+
+.featured-products {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+.featured-products h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: space-around; /* Evenly space cards */
+  flex-wrap: wrap; /* Allows cards to wrap to next line */
+}
+
+.product-card {
+  width: 30%; /* Adjust card width as needed */
+  margin: 10px;
+  border: 1px solid #ddd; /* Add a light border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  padding: 15px;
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 250px; /* Adjust image size as needed */
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px; /* Adjust paragraph size */
+  line-height: 1.5;
+}
+
+.product-card .price {
+  font-weight: bold; /* Bold price */
+  margin-top: 5px;
+}
+
+.product-card:hover {
+  box-shadow: 0 2px 5px rgba(0, 0);
+}
+
+.main p {
+  text-align: center; /* Center text */
+}
+
+.events-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+  text-align: center;
+}
+
+.events-intro {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.seasonal-spotlight {
+  margin-bottom: 2rem;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.8);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.seasonal-spotlight h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.seasonal-spotlight strong {
+  color: #333; /* Warm brown text color */
+  font-weight: bold;
+}
+
+.seasonal-spotlight ul {
+  list-style: none; /* Remove default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.seasonal-spotlight li {
+  margin-bottom: 1rem;
+}
+
+.pricing-table table{
+  margin: 0 auto; /* Center the table horizontally */
+  width: 80%; /* Set table width */
+  border-collapse: collapse; /* Remove default table border spacing */
+  background-repeat: no-repeat; /* Prevent image tiling */
+  background-position: center; /* Center image horizontally */
+  background-size: cover; /* Stretch image to cover table */
+}
+
+.pricing-table th,
+.pricing-table td {
+  text-align: Center; /* Align content center */
+  padding: 1rem; /* Add padding to cells */
+}
+
+.pricing-table thead th {
+  background-color: #87A790; /* Dark green background for headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+.pricing-table td {
+  border: 1px solid rgba(128, 128, 128, 0.5); /* Darker brown table borders */
+}
+
+.event-testimonials {
+  margin-bottom: 2rem;
+}
+
+.event-testimonials h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.event-testimonials p {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+  border-left: 3px solid #ddd;
+  padding-left: 1rem;
+  text-align: center;
+
+}
+
+section#visit {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Horizontally center content */
+  text-align: center;
+}
+
+button {
+  background-color: #87A790; /* Greenish button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px; /* Update border radius for leaf shape */
+  margin: 5px;
+  cursor: pointer; /* Sets cursor as a pointer */
+  font-family: Cambria, serif;  /* Serif font for buttons */
+}
+
+button:hover {
+  background-color: #8AA790; /* Lighter green on hover */
+}
+
+
+.available-hours table {
+  border-collapse: collapse; /* Remove table borders between cells */
+  width: 100%; /* Make the table full width */
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.available-hours th,
+.available-hours td {
+  padding: 0.5rem 1rem; /* Add padding to table cells */
+  border: 1px solid #ddd; /* Add a light gray border to table cells */
+  text-align: left; /* Align content to the left */
+}
+
+.available-hours th {
+  background-color: #f2f2f2; /* Light gray background for table headers */
+  font-weight: bold; /* Make table headers bold */
+}
+
+.contact-info {
+  display: flex; /* Arrange store info and form side-by-side */
+}
+
+.store-info,
+.contact-form {
+  flex: 1; /* Make each section occupy half the available space */
+  padding: 1rem; /* Add some padding inside each section */
+}
+
+.store-info h3,
+.contact-form h3 {
+  margin-bottom: 1rem; /* Add space below the headings */
+}
+
+.store-info p,
+.contact-form label {
+  margin-bottom: 0.5rem; /* Add space below paragraphs and labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Make input fields and textarea full width */
+  padding: 0.5rem;
+  border: 1px solid #ccc; /* Add a border to input fields and textarea */
+  margin-bottom: 1rem; /* Add space below each input field */
+}
+
+.contact-form textarea {
+  height: 100px; /* Set a height for the textarea */
+}
+
+.contact-form button {
+  background-color: #4CAF50; /* Green color for the submit button */
+  color: white;
+  padding: 0.75rem 1rem; /* Add padding to the button */
+  border: none; /* Remove border from the button */
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.contact-form button:hover {
+  background-color: #3e8e41; /* Darker green for hover effect */
+}
+
+.flower-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+  grid-gap: 10px; /* Spacing between flower elements */
+}
+
+.flower {
+  border: 1px solid #ddd; /* Add a border for each flower */
+  padding: 10px; /* Add padding inside the flower element */
+  text-align: center; /* Center the text within the flower */
+}
+section#flowers p {
+	text-align: center;
+}
+
+.flower img {
+  width: 100%; /* Make the image fit the flower element */
+  max-width: 200px; /* Set a maximum width for larger screens */
+}
+
+footer {
+  text-align: center; /* Centers text */
+  background: linear-gradient(to right, #ffc0cb, #f8b399, #f08080); /* Gradient from pink to orange to red */
+  padding: 10px; /* Adds padding around footer */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #ff7eb9;
+  color: white;
+}
