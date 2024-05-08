@@ -1,0 +1,1 @@
+This website was crafted using HTML and CSS, serving as a cornerstone for my future front-end development endeavors. It's designed to establish a solid foundation for my skills and showcase my progress in web development.
