@@ -34,8 +34,5 @@ To run the website locally on your machine, follow these steps:
 2. Navigate to the project directory.
 3. Open any HTML file in a web browser to view the corresponding page.
 
-## Contributors
-- [JordanBuckleyGit](https://github.com/JordanBuckleyGit)
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
